@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="io.maerlyn.androiddeveloperquiz.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/container"
+        style="@style/Container">
+
+        <!-- Progress Text-->
+        <TextView
+            android:id="@+id/progress_text"
+            style="@style/ProgressText"
+            android:text="@string/progress_text" />
+
+        <!-- Question Text-->
+        <TextView
+            android:id="@+id/question_text"
+            style="@style/Question" />
+
+        <!-- Quiz Summary -->
+        <LinearLayout
+            android:id="@+id/summary"
+            style="@style/Summary"
+            android:visibility="gone">
+            <!-- populated at runtime -->
+        </LinearLayout>
+
+        <!-- Answer Layout -->
+        <LinearLayout
+            android:id="@+id/answer_layout"
+            style="@style/Answers">
+            <!-- Answers populated at runtime -->
+        </LinearLayout>
+
+        <!-- Button Bar -->
+        <LinearLayout
+            android:id="@+id/button_bar"
+            style="@style/FillVertical"
+
+            android:orientation="horizontal">
+            <!-- Previous Question Button -->
+            <Button
+                android:id="@+id/previous_question_button"
+                style="@style/NavButton"
+                android:onClick="prevQuestion"
+                android:text="@string/previous_question_button" />
+
+            <!-- Restart Quiz Button -->
+            <Button
+                android:id="@+id/restart_button"
+                style="@style/NavButton"
+                android:onClick="startNewQuiz"
+                android:text="@string/restart_button" />
+
+            <!-- Next Question Button -->
+            <Button
+                android:id="@+id/next_question_button"
+                style="@style/NavButton"
+                android:onClick="nextQuestion"
+                android:text="@string/next_question_button" />
+
+            <!-- Next Question Button -->
+            <Button
+                android:id="@+id/finish_button"
+                style="@style/NavButton"
+                android:onClick="finishQuiz"
+                android:text="@string/finish_button" />
+
+        </LinearLayout><!-- /Button Bar-->
+    </LinearLayout><!-- /Root Layout-->
+</ScrollView>

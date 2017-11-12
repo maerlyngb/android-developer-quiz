@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Android Developer Quiz</string>
+
+    <!-- Progress text above the question -->
+    <string name="progress_text">Question %d of %d</string>
+
+    <!-- Navigation Buttons-->
+    <string name="next_question_button">Next</string>
+    <string name="previous_question_button">Previous</string>
+    <string name="restart_button">Restart</string>
+    <string name="finish_button">Finish</string>
+
+    <string name="free_text_answer_hint">Answer</string>
+
+    <!-- Question 1-->
+    <!-- Type: Radio Button -->
+    <string name="q1">Which type of layout is used to arrange it\'s children in a list?</string>
+    <string name="q1a1">RelativeLayout</string>
+    <string name="q1a2">GridView</string>
+    <string name="q1a3">LinearLayout</string>
+    <string name="q1a4">RecyclerView</string>
+
+    <!-- Question 2-->
+    <!-- Type: Checkbox -->
+    <string name="q2">Which of these Java data types can be used to do math?</string>
+    <string name="q2a1">String</string>
+    <string name="q2a2">int</string>
+    <string name="q2a3">char</string>
+    <string name="q2a4">long</string>
+
+    <!-- Question 3-->
+    <!-- Type: Radio Button -->
+    <string name="q3">Which attribute on a view makes it as wide as it\'s parent?</string>
+    <string name="q3a1">android:layout_width="wrap_content"</string>
+    <string name="q3a2">android:layout_width="max"</string>
+    <string name="q3a3">android:layout_width="match_parent"</string>
+    <string name="q3a4">android:layout_width="full_size"</string>
+
+    <!-- Question 4-->
+    <!-- Type: Checkbox -->
+    <string name="q4">Which technologies can be used to create a Layout view</string>
+    <string name="q4a1">XML</string>
+    <string name="q4a2">JSON</string>
+    <string name="q4a3">Java</string>
+    <string name="q4a4">YAML</string>
+
+    <!-- Question 5-->
+    <!-- Type: Free Text -->
+    <string name="q5">What is the name of the view which allows the user to enter text?</string>
+    <string name="q5a1">EditText</string>
+
+    <!-- Question 6-->
+    <!-- Type: Radio Button -->
+    <string name="q6">A button is declared in XML using the following tag: &lt;ButtonView /&gt;</string>
+    <string name="q6a1">true</string>
+    <string name="q6a2">false</string>
+
+    <!-- Question 7-->
+    <!-- Type: Free Text -->
+    <string name="q7">What is the name of the view which displays an image?</string>
+    <string name="q7a1">ImageView</string>
+
+    <!-- Question 8-->
+    <!-- Type: Radio Button-->
+    <string name="q8">Images should be stored in the res/images directory</string>
+    <string name="q8a1">true</string>
+    <string name="q8a2">false</string>
+
+    <!-- Question 9-->
+    <!-- Type: Checkbox -->
+    <string name="q9">Which attributes need to be modified to equally space a set of views inside a horizontal LinearView</string>
+    <string name="q9a1">android:layout_width</string>
+    <string name="q9a2">android:layout_weight</string>
+    <string name="q9a3">android:layout_height</string>
+    <string name="q9a4">android:layout_spacing</string>
+
+    <!-- Summary Screen -->
+    <string name="question">Question</string>
+    <string name="out_of">out of</string>
+    <string name="correct">✅</string>
+    <string name="incorrect">❌</string>
+
+    <string name="finish_msg_1">Great try!</string>
+    <string name="finish_msg_2">Well done!</string>
+    <string name="finish_msg_3">Amazing!</string>
+    <string name="finish_msg_4">Perfect!</string>
+</resources>
